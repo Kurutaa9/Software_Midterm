@@ -36,26 +36,20 @@ This is a real-time, responsive chat application built with React, Vite, and Fir
 - Extract this project folder (Mid1) to your local machine.
 - Open your terminal (Command Prompt, PowerShell, or Terminal on Mac).
 - Navigate strictly to the 
-eact-chat inner folder:
-  `ash
-  cd react-chat
-  `
-  *(CRITICAL: You must be inside the 
-eact-chat directory where the package.json file is located, NOT the top-level Mid1 folder. Running this in the root folder will fail to start and cost points.)*
+react-chat inner folder
 
 **Step 3: Install Dependencies**
 - Run the following command to download all required React and Firebase packages:
-  `ash
+  `
   npm install
   `
 
 **Step 4: Start the Development Server**
 - Once the installation finishes, run:
-  `ash
+  `
   npm run dev
   `
 
 **Step 5: View the Application**
 - The terminal will display a local URL (usually http://localhost:5173).
 - Open your web browser and navigate to that URL to review the application.
-*(Note: Firebase is already configured in src/firebase.js, so no additional database setup is required to test the functionality locally).*
